@@ -1,0 +1,20 @@
+{
+  "name": "xrpl-card",
+  "version": "1.0.0",
+  "description": "Contactless Payments on the XRPL, this contains 1 JS file for writing the XRP Address and Secret Key, and 1 JS file to read teh conractless card and make payments on teh XRPL.",
+  "main": "ContactlessCardReaderandPayment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	  "node-fetch": "^2.5.0",
+	  "nfc-pcsc": "^0.7.4",
+	  "pcsclite": "^0.4.12",
+	  "ripple-lib": "^1.3.0" 
+  },
+  "keywords": [
+    "XRPL",
+    "XRP"
+  ],
+  "author": "R Slater"
+}
