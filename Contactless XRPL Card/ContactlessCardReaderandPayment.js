@@ -3,7 +3,7 @@ var pcsc = pcsc();
 const fiatrate = require('node-fetch');
 const RippleAPI = require('ripple-lib').RippleAPI;
 
-const dstAddress = 'rhAb9uew2PLRjKBm5D945LsGai3qHUCtJg'; //destination address, retail provider.
+const dstAddress = ''; //destination address, retail provider.
 const dstTag = '1'; //destination tag, possible receipt number? or print transaction hash.
 const api = new RippleAPI({server: 'wss://s.altnet.rippletest.net:51233'});
 const productvalue = '10'; // value of product to pay retailer provider.
